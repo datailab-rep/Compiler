@@ -7,8 +7,8 @@ from supabase import create_client, Client
 
 
 # Initialize Supabase client
-url = "https://tjgmipyirpzarhhmihxf.supabase.co"
-key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRqZ21pcHlpcnB6YXJoaG1paHhmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzE2NzQ2MDEsImV4cCI6MjA0NzI1MDYwMX0.LNMUqA0-t6YtUKP6oOTXgVGYLu8Tpq9rMhH388SX4bI"
+url = "https://vtsjyoskmuzcvsthomov.supabase.co"
+key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ0c2p5b3NrbXV6Y3ZzdGhvbW92Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzUyOTQxMDksImV4cCI6MjA1MDg3MDEwOX0.ms5iwahtp-AOf8viMhqLJRK6RNgqlrN8rg0mWYGAqG4"
 supabase: Client = create_client(url, key)
 if 'user_id' not in st.session_state:
     st.session_state.user_id = str(uuid.uuid4())
